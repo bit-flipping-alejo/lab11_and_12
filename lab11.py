@@ -36,7 +36,7 @@ def displayRoom(currentRoom, roomData ,optionsAvailable ):
   printNow("Here are your current options.")
   printNow()
   for i in len(optionsAvailable(currentRoom)):
-    printNow(i, options[i])
+    printNow(str(i) + ") " + options[i])
   printNow("What will you do now?")
 
 
